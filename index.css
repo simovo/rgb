@@ -2,19 +2,84 @@ html, body {
   height: 100%;
   margin: 0;
   overflow: hidden;
+  background-color: #181818;
 }
+
+
+.top{
+
+ position:fixed;
+ top: 0;
+ left: 0;
+ right: 0;
+ padding: 10px;
+
+  text-align: center;
+background-color: steelblue;
+  font-family: 'Noto Sans Regular', sans-serif;
+  color: white;
+}
+
+.addsomething{
+font-size: 7px;
+
+}
+
+.addsomething1{
+font-size: 17px;
+
+}
+
+.addsomething2{
+font-size: 7px;
+
+}
+
+
+.color-code{
+
+/* background-color: gray; */
+margin-bottom: 25px;
+
+}
+
+
 
 .box {
   width: 30px;
   height: 30px;
-  border: 1px solid black;
+
   cursor: pointer;
   transition: transform 1s;
+  border-radius: 100%;
+  display: inline-block;
+  margin: 0 7px
+  
+  
+}
+
+.the-color{
+text-align: center;
+  /* background-color: darkblue; */
+
+  align-items: center;
+  /* height: 80vh; */
+  position: absolute;
+  top:50%;
+  left:0;
+  right:0;
+  bottom:0;
+  margin-top:-16px;
+  font-size: 10px;
+  color: white;
+  
 }
 
 .box.large {
   transform: scale(50);
 }
+
+
 
 .modal {
   display: none;
@@ -26,3 +91,17 @@ html, body {
 .modal.show {
   display: block;
 }
+
+
+.box-score{
+  text-align: center;
+  font-size: 7px;
+  color: white;
+  padding-top: 7px;
+}
+
+.the-things{
+padding-top :60px;
+
+}
+

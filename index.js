@@ -29,7 +29,10 @@ boxes.forEach((el, index) => {
       document.querySelector('.modal.right').classList.add('show');
       score++;
     } else {
+
+      document.querySelector(".anther.wrong").classList.add("show");
       score = 0;
+      
     }
     document.querySelector('.score').textContent = score;
   })
